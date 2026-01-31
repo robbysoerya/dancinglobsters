@@ -206,6 +206,53 @@ export default function Home() {
                  {copied && <p className="mt-2 text-(--neon-green) font-bold blink">COPIED TO CLIPBOARD!</p>}
               </div>
            </RetroWindow>
+         </div>
+
+
+        {/* Social Links Section */}
+        <div className="lg:col-span-12 mt-8">
+           <div className="text-center mb-6">
+              <h2 className="font-impact text-4xl md:text-5xl text-(--neon-green) text-stroke mb-2">JOIN THE DANCE</h2>
+              <p className="font-mono text-sm opacity-70">Connect with the lobster community</p>
+           </div>
+           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <a 
+                href="https://x.com/DLobsters57732" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group relative"
+              >
+                 <div className="bg-black border-4 border-(--neon-blue) p-6 text-center hover:bg-(--neon-blue) hover:text-black transition-all duration-300 box-shadow-hard hover:translate-y-[-4px]">
+                    <div className="text-5xl mb-3">🐦</div>
+                    <h3 className="font-impact text-xl mb-2">X PAGE</h3>
+                    <p className="font-mono text-xs opacity-70 group-hover:opacity-100">Follow for updates</p>
+                 </div>
+              </a>
+              <a 
+                href="https://x.com/i/communities/2015981886930137133" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group relative"
+              >
+                 <div className="bg-black border-4 border-(--neon-pink) p-6 text-center hover:bg-(--neon-pink) hover:text-black transition-all duration-300 box-shadow-hard hover:translate-y-[-4px]">
+                    <div className="text-5xl mb-3">👥</div>
+                    <h3 className="font-impact text-xl mb-2">X COMMUNITY</h3>
+                    <p className="font-mono text-xs opacity-70 group-hover:opacity-100">Join the discussion</p>
+                 </div>
+              </a>
+              <a 
+                href="https://t.co/y5bt7XmaSa" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group relative"
+              >
+                 <div className="bg-black border-4 border-(--neon-green) p-6 text-center hover:bg-(--neon-green) hover:text-black transition-all duration-300 box-shadow-hard hover:translate-y-[-4px]">
+                    <div className="text-5xl mb-3">💬</div>
+                    <h3 className="font-impact text-xl mb-2">TELEGRAM</h3>
+                    <p className="font-mono text-xs opacity-70 group-hover:opacity-100">Chat with lobsters</p>
+                 </div>
+              </a>
+           </div>
         </div>
       
       </section>
