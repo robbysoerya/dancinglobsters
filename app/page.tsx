@@ -38,7 +38,7 @@ const GlitchTitle = ({ text }: { text: string }) => (
 export default function Home() {
   const [copied, setCopied] = useState(false);
   const [time, setTime] = useState("");
-  const contractAddress = "B1wzo9uoyFYyDXASYUYJocWPJgdLdKzSZLUcFxLHpump";
+  const contractAddress = "TBA";
 
   useEffect(() => {
     // Defer initial update to avoid "synchronous setState in effect" warning
@@ -118,7 +118,7 @@ export default function Home() {
         
         <div className="mt-1">
            <a 
-              href={`https://dexscreener.com/solana/3er8nhhl6mbaagfremsa4t1vu97nses84lmkzma5tdrx`}
+              href={`https://pump.fun`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-(--neon-green) text-black font-impact text-2xl md:text-4xl px-8 py-4 border-4 border-black box-shadow-hard hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all transform -rotate-2"
@@ -159,8 +159,8 @@ export default function Home() {
                     <div className="w-full bg-gray-800 h-2 mt-1"><div className="bg-green-500 h-full w-full"></div></div>
                  </div>
                  <div className="bg-black border border-gray-500 p-2 text-green-400 font-mono">
-                    <p>BURNED: 2%</p>
-                    <div className="w-full bg-gray-800 h-2 mt-1"><div className="bg-green-500 h-full w-[2%]"></div></div>
+                    <p>BURNED: 0%</p>
+                    <div className="w-full bg-gray-800 h-2 mt-1"><div className="bg-green-500 h-full w-[0%]"></div></div>
                  </div>
                   <div className="bg-black border border-gray-500 p-2 text-green-400 font-mono">
                     <p>LP: BURNED</p>
