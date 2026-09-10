@@ -38,7 +38,7 @@ const GlitchTitle = ({ text }: { text: string }) => (
 export default function Home() {
   const [copied, setCopied] = useState(false);
   const [time, setTime] = useState("");
-  const contractAddress = "Hk6dNkPxpmQNdYB6PKeY7ZyWJmMBdngUgm44kJ1Lpump";
+  const contractAddress = "B1wzo9uoyFYyDXASYUYJocWPJgdLdKzSZLUcFxLHpump";
 
   useEffect(() => {
     // Defer initial update to avoid "synchronous setState in effect" warning
@@ -118,7 +118,7 @@ export default function Home() {
         
         <div className="mt-1">
            <a 
-              href={`https://pump.fun/coin/Hk6dNkPxpmQNdYB6PKeY7ZyWJmMBdngUgm44kJ1Lpump`}
+              href={`https://dexscreener.com/solana/3er8nhhl6mbaagfremsa4t1vu97nses84lmkzma5tdrx`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-(--neon-green) text-black font-impact text-2xl md:text-4xl px-8 py-4 border-4 border-black box-shadow-hard hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all transform -rotate-2"
@@ -159,8 +159,8 @@ export default function Home() {
                     <div className="w-full bg-gray-800 h-2 mt-1"><div className="bg-green-500 h-full w-full"></div></div>
                  </div>
                  <div className="bg-black border border-gray-500 p-2 text-green-400 font-mono">
-                    <p>BURNED: 0%</p>
-                    <div className="w-full bg-gray-800 h-2 mt-1"><div className="bg-green-500 h-full w-[0%]"></div></div>
+                    <p>BURNED: 2%</p>
+                    <div className="w-full bg-gray-800 h-2 mt-1"><div className="bg-green-500 h-full w-[2%]"></div></div>
                  </div>
                   <div className="bg-black border border-gray-500 p-2 text-green-400 font-mono">
                     <p>LP: BURNED</p>
@@ -207,7 +207,9 @@ export default function Home() {
               </div>
            </RetroWindow>
          </div>
-       {/* Social Links Section */}
+
+
+        {/* Social Links Section */}
         <div className="lg:col-span-12 mt-8">
            <div className="text-center mb-6">
               <h2 className="font-impact text-4xl md:text-5xl text-(--neon-green) text-stroke mb-2">JOIN THE DANCE</h2>
@@ -254,5 +256,13 @@ export default function Home() {
         </div>
       
       </section>
+
+      {/* --- Footer --- */}
+      <footer className="text-center py-8 text-gray-500 font-mono text-xs">
+         <p>Running on LobsterOS [Version 2026.1.0]</p>
+         <p>(C) 1999-2026 Dancing Lobster Corp. All rights reserved.</p>
+      </footer>
+
+    </div>
   );
 }
