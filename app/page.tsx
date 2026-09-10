@@ -38,7 +38,7 @@ const GlitchTitle = ({ text }: { text: string }) => (
 export default function Home() {
   const [copied, setCopied] = useState(false);
   const [time, setTime] = useState("");
-  const contractAddress = "B1wzo9uoyFYyDXASYUYJocWPJgdLdKzSZLUcFxLHpump";
+  const contractAddress = "Hk6dNkPxpmQNdYB6PKeY7ZyWJmMBdngUgm44kJ1Lpump";
 
   useEffect(() => {
     // Defer initial update to avoid "synchronous setState in effect" warning
@@ -118,7 +118,7 @@ export default function Home() {
         
         <div className="mt-1">
            <a 
-              href={`https://dexscreener.com/solana/3er8nhhl6mbaagfremsa4t1vu97nses84lmkzma5tdrx`}
+              href={`https://pump.fun/coin/Hk6dNkPxpmQNdYB6PKeY7ZyWJmMBdngUgm44kJ1Lpump`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-(--neon-green) text-black font-impact text-2xl md:text-4xl px-8 py-4 border-4 border-black box-shadow-hard hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all transform -rotate-2"
