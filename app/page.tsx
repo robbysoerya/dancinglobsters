@@ -159,7 +159,7 @@ export default function Home() {
                     <div className="w-full bg-gray-800 h-2 mt-1"><div className="bg-green-500 h-full w-full"></div></div>
                  </div>
                  <div className="bg-black border border-gray-500 p-2 text-green-400 font-mono">
-                    <p>BURNED: 2%</p>
+                    <p>BURNED: 0%</p>
                     <div className="w-full bg-gray-800 h-2 mt-1"><div className="bg-green-500 h-full w-[0%]"></div></div>
                  </div>
                   <div className="bg-black border border-gray-500 p-2 text-green-400 font-mono">
