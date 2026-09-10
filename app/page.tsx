@@ -207,5 +207,6 @@ export default function Home() {
               </div>
            </RetroWindow>
          </div>
+      </section>
   );
 }
