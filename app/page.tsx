@@ -207,13 +207,5 @@ export default function Home() {
               </div>
            </RetroWindow>
          </div>
-
-      {/* --- Footer --- */}
-      <footer className="text-center py-8 text-gray-500 font-mono text-xs">
-         <p>Running on LobsterOS [Version 2026.1.0]</p>
-         <p>(C) 1999-2026 Dancing Lobster Corp. All rights reserved.</p>
-      </footer>
-
-    </div>
   );
 }
