@@ -186,12 +186,12 @@ export default function Home() {
                  <div className="p-4 border-2 border-dashed border-gray-400 hover:bg-white/10 transition">
                     <div className="text-4xl mb-2">🔋</div>
                     <h3 className="font-bold mb-2">STEP 2: INSERT COIN</h3>
-                    <p className="text-sm">Acquire SOL from an exchange and send it to your wallet address.</p>
+                    <p className="text-sm">Acquire ETH from an exchange and send it to your wallet address.</p>
                  </div>
                  <div className="p-4 border-2 border-dashed border-gray-400 hover:bg-white/10 transition">
                     <div className="text-4xl mb-2">💿</div>
                     <h3 className="font-bold mb-2">STEP 3: EXECUTE</h3>
-                    <p className="text-sm">Paste the contract address below into Raydium/Jupiter and swap.</p>
+                    <p className="text-sm">Paste the contract address below into Pons and swap.</p>
                  </div>
               </div>
               
